@@ -1,0 +1,257 @@
+@font-face { 
+	font-family: 'FoglihtenNo06'; 
+	src: local('FoglihtenNo06'), url('/fonts/FoglihtenNo06.ttf') format('truetype'); 
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.italiana{
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.line1::before{
+    content: "";
+    display: block;
+    width: 650px;
+    height: 1px;
+    background: white;
+    left: 120%;
+    top: 50%;
+    opacity: 0.4;
+    position: absolute;
+}
+.line1::after{
+    content: "";
+    display: block;
+    width: 650px;
+    height: 1px;
+    background: white;
+    right: 120%;
+    opacity: 0.4;
+    top: 50%;
+    position: absolute;
+}
+
+
+.slider {
+  position: relative;
+  overflow: hidden; /* <===  */
+  border-radius: 15px;
+}
+
+.slide {
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 56px;
+}
+.btn:active {
+  transform: scale(1.2);
+}
+.btn-prev {
+  top: 91.5%;
+  left: 3.5%;
+}
+
+.btn-next {
+  top: 91.5%;
+  right: 3.5%;
+}
+
+.swiper-fade{
+	opacity: 0.5;
+}
+.swiper-slide{
+	transition: 0.3s;
+}
+
+.sec-exp img{
+scale: 1.35;
+}
+
+#menu {
+	background: #bdb7b3;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	text-align: center;
+	top: 65px;
+	transition: all 0.7s ease-in-out;
+	visibility: hidden;
+	width: 100%;
+	overflow: hidden;
+	z-index: 100;
+}
+#menu.open {
+	opacity: 1;
+	visibility: visible;
+}
+#menu .open li:nth-child(1) {
+	animation-delay: 0.1s;
+}
+#menu.open li:nth-child(2) {
+	animation-delay: 0.2s;
+}
+#menu.open li:nth-child(3) {
+	animation-delay: 0.3s;
+}
+#menu.open li:nth-child(4) {
+	animation-delay: 0.4s;
+}
+#menu.open li:nth-child(5) {
+	animation-delay: 0.5s;
+}
+#menu.open li:nth-child(6) {
+	animation-delay: 0.6s;
+}
+#menu.open li:nth-child(7) {
+	animation-delay: 0.7s;
+}
+#menu.open li:nth-child(8) {
+	animation-delay: 0.8s;
+}
+#menu.open li:nth-child(9) {
+	animation-delay: 0.9s;
+}
+#menu.open li:nth-child(10) {
+	animation-delay: 1s;
+}
+#menu.open li {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeInUp;
+}
+#menu ul:hover a {
+	opacity: 0.5;
+}
+#menu ul a {
+	-webkit-transform: translateZ(0);
+	transition: opacity 0.3s ease-in-out;
+}
+#menu ul a:hover {
+	opacity: 1;
+}
+#menu .main-nav {
+	position: relative;
+	top: calc(50% - 80px);
+	transform: translateY(-50%);
+}
+#menu .main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu .main-nav a:first {
+	padding-top: 0;
+}
+.nav__toggle-menu {
+  position: relative;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	float: right;
+	height: 50px;
+	outline: none;
+	padding: 0;
+	pointer-events: initial;
+	vertical-align: middle;
+	width: 50px;
+	z-index: 1100;
+  margin: 0px;
+}
+
+.nav__toggle-menu span {
+	background-color: #fff;
+	content: "";
+	display: block;
+	height: 2px;
+	left: calc(50% - 13px );
+	position: absolute;
+	top: calc(50% - 1px );
+	transform-origin: 50% 50%;
+	transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
+	width: 26px;
+}
+.nav__toggle-menu span:before, .nav__toggle-menu span:after {
+	background-color: #fff;
+	content: "";
+	display: block;
+	height: 2px;
+	position: absolute;
+	transform-origin: 50% 50%;
+	transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
+	width: 26px;
+}
+.nav__toggle-menu span:before {
+	top: 7px;
+}
+.nav__toggle-menu span:after {
+	top: -7px;
+}
+.nav__toggle-menu.active span {
+	background-color: transparent;
+	transition: background 0.2s ease-out;
+}
+.nav__toggle-menu.active span:before, .nav__toggle-menu.active span:after {
+	transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
+}
+.nav__toggle-menu.active span:before {
+	top: 0;
+	transform: rotate3d(0, 0, 1, -45deg);
+}
+.nav__toggle-menu.active span:after {
+	top: 0;
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.slider-img{
+	object-fit: contain;
+}
+
+.swipe-size{
+	height: 20vh;
+}
+
+.scroll-down nav{
+	transform: translate3d(0, -100%, 0);
+	transition: all 0.5s;
+}
+
+.scroll-up nav{
+	filter: drop-shadow(0 -100px 30px rgb(0, 0, 0));
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+}
+
+.nav-up nav{
+	background: #bdb7b3;
+	transition: all 0.7s ease-in-out;
+}
+

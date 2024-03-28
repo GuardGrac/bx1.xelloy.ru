@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/js/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-black overflow-x-hidden">
+    <nav class="w-screen bg-transparent text-white z-10 py-1 pt-[2vh] fixed mx-auto">
+            <div class="flex flex-row justify-between text-center items-center text-nowrap mx-3">
+                <div class="flex flex-row text-center items-center">
+                    <span class="2xl:mx-[10%] ml-7 2xl:text-[42px] text-[36px] italiana">
+                       SERENITY 
+                    </span>
+                    <p class="mx-[4.5%] 2xl:text-[17px] hidden 2xl:block italic">
+                        Превращаем пространство в искусство
+                    </p>
+                </div>
+                <div class="flex flex-row justify-between text-center items-center ">
+                    <p class="2xl:text-[21px] 2xl:flex hidden">
+                        +7 905 360 5555
+                    </p>
+                    <button class="nav__toggle-menu z-40 2xl:pl-[9vw] pl-0 mr-[5vw] 2xl:mr-0">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+    </nav>
+    <div class="nav-border block 2xl:hidden absolute bg-white h-[2px] 2xl:w-[95vw] 2xl:top-[8vh] 2xl:left-[1.7vw]
+    w-[90vw] left-[5vw] top-[8vh]">
+    </div>
+    <div class="block 2xl:hidden">
+            <img class="absolute 2xl:h-[120vh] h-[100vh] w-screen z-[-1] object-cover object-top select-none" src="/img/back.png" alt="">
+            <header class="2xl:ml-[11.08%] ml-[15%] w-fit flex flex-col 2xl:justify-center pt-[80%] 2xl:pt-0 2xl:mt-0 bg-transparent h-[100vh] w-[100vh]">
+                <span class="mt-[5.45%] 2xl:text-[85px] text-[38px] uppercase 2xl:leading-[6rem] leading-[5.5vh] font-['FoglihtenNo06'] font-[10]">
+                    Студия интерьерного<br>
+                    дизайна
+                </span>
+                <p class="2xl:mt-[55px] mt-[2vh] italic 2xl:text-[34px] text-balance text-xl tracking-[0.013em]">
+                    Превращаем пространство в<br class="block 2xl:hidden">искусство
+                </p>     
+                    <button class="flex flex-row justify-around items-center 2xl:w-[226px] w-[150px] h-[45px] 2xl:h-[65px] bg-[#F7B794] 2xl:text-2xl text-black rounded 2xl:mt-[55px] mt-[3vh]">
+                    Подробнее
+                    <svg class="m-2 -rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 16L14.59 14.59L9 20.27V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="black"/>
+                        </svg>
+                </button>     
+            </header>
+    </div>
+    <div class="slider w-screen hidden 2xl:block h-[120vh]">
+        <div class="slide w-screen h-[120vh]">
+            <img class="absolute h-[120vh] w-screen z-[-1] object-cover object-top select-none" src="/img/back.png" alt="">
+            <header class="ml-[11.08%] w-fit flex flex-col justify-center bg-transparent h-[120vh] w-[100vh]">
+                <span class="mt-[5.45%] text-[85px] uppercase leading-[6rem] font-['FoglihtenNo06'] font-[10]">
+                    Студия интерьерного<br>
+                    дизайна 
+                </span>
+                <p class="mt-[55px] italic text-[34px] tracking-[0.013em]">
+                    Превращаем пространство в искусство
+                </p>     
+                    <button class="flex flex-row justify-around items-center w-[226px] h-[65px] bg-[#F7B794] text-2xl text-black rounded mt-[55px]">
+                    Подробнее
+                    <svg class="m-2 -rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 16L14.59 14.59L9 20.27V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="black"/>
+                        </svg>
+                </button>     
+            </header>
+        </div>
+         <div class="slide w-screen h-[120vh]">
+            <img class="absolute h-[120vh] w-screen z-[-1] object-cover object-top select-none" src="/img/back.png" alt="">
+            <header class="ml-[13.3rem] w-fit flex flex-col justify-center bg-transparent h-[120vh] w-[100vh]">
+                <span class="mt-[57px] text-[90px] uppercase leading-[6rem] font-['FoglihtenNo06'] font-[10]">
+                    Студия интерьерного<br>
+                    дизайна
+                </span>
+                <p class="mt-[55px] italic text-[34px] tracking-[0.013em]">
+                    Превращаем пространство в искусство
+                </p>     
+                    <button class="flex flex-row justify-around items-center w-[226px] h-[65px] bg-[#F7B794] text-2xl text-black rounded mt-[55px]">
+                    Подробнее
+                    <svg class="m-2 -rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 16L14.59 14.59L9 20.27V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="black"/>
+                        </svg>
+                </button>     
+            </header>
+        </div>
+        <button class="btn btn-next"> 
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.35913 14.6985H20.9825" stroke="#E0E0E0"/>
+                <path d="M18.0311 11.5193L21.2099 14.6981L18.0311 17.8769" stroke="#E0E0E0"/>
+                <g opacity="0.7">
+                <circle cx="14.907" cy="15.0927" r="13.9072" stroke="#E0E0E0"/>
+                </g>
+            </svg>                               
+        </button>
+        <div class="w-[45px] absolute bottom-[40px] left-[49.45%] right-[0px] m-[0px]" id="scroll-button">
+           <svg viewBox="0 0 35 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.27147 16.7208C1.4857 19.2272 3.62235 21.3555 6.37636 21.6708C7.3891 21.7866 8.41876 21.868 9.4622 21.868C10.5056 21.868 11.5353 21.7866 12.548 21.6708C15.3021 21.3555 17.4386 19.2272 17.6529 16.7208C17.8014 14.984 17.9245 13.2026 17.9245 11.3874C17.9245 9.57218 17.8014 7.79075 17.6529 6.05397C17.4386 3.54749 15.3021 1.41917 12.548 1.10398C11.5353 0.988086 10.5056 0.906738 9.4622 0.906738C8.41876 0.906738 7.3891 0.988086 6.37636 1.10398C3.62235 1.41917 1.4857 3.54749 1.27147 6.05397C1.12302 7.79075 1 9.57218 1 11.3874C1 13.2026 1.12302 14.984 1.27147 16.7208Z" stroke="#E0E0E0"/>
+                <g class="mouse-anim">
+                    <path d="M9.46484 5.09473L9.46484 8.23892" stroke="#E0E0E0" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+            </svg>    
+        </div> 
+        <button class="btn btn-prev"> 
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.4548 15.4871L8.83144 15.4871" stroke="#E0E0E0"/>
+                <path d="M11.7828 18.6663L8.60402 15.4875L11.7828 12.3087" stroke="#E0E0E0"/>
+                <g opacity="0.7">
+                <circle cx="14.907" cy="15.0928" r="13.9072" transform="rotate(-180 14.907 15.0928)" stroke="#E0E0E0"/>
+                </g>
+            </svg>                
+        </button>
+     </div>
+    <section class="min-w-fit max-w-full h-[22vh] 2xl:pl-0 pl-[10vw] flex 2xl:flex-row flex-col text-center justify-around 2xl:mt-[26vh] mt-[55vh] text-[25px] 2xl:mx-4" id="section_case">
+        <div class="flex flex-col justify-evenly 2xl:pt-2 2xl:ml-3 pr-10 2xl:pr-0">
+            <p class="2xl:text-[110px] text-8xl 2xl:h-[150px] font-['FoglihtenNo06'] font-[10]">
+                100%
+            </p>
+            <p class="pb-12 leading-8">
+                Реализуемые<br>
+                проекты
+            </p>
+        </div>
+        <div class="flex flex-col justify-evenly 2xl:mt-4 2xl:pl-8 pr-5 2xl:pr-0">
+        <p class="2xl:text-[110px] text-8xl 2xl:h-[150px] font-['FoglihtenNo06'] font-[10] pr-6 2xl:pr-0 pt-2">
+                400
+            </p>
+            <p class="mb-[60px] leading-8 pr-5">
+                Спроектированных<br>
+                объектов
+            </p>
+        </div>
+        <div class="flex flex-col justify-evenly 2xl:mb-6 2xl:pr-2 pr-10">
+            <p class="2xl:text-[110px] text-8xl 2xl:h-[150px] font-['FoglihtenNo06'] font-[10]">
+                15
+            </p>
+            <p class="pb-12">
+                Лет в сфере
+            </p>
+        </div>
+        <div class="flex flex-col justify-evenly pr-5 2xl:pr-0">
+            <p class="2xl:text-[110px] text-8xl 2xl:h-[150px] font-['FoglihtenNo06'] font-[10] ">
+                60%
+            </p>
+            <p class="pb-4 leading-[32px] pr-3">
+                Заказчиков<br>
+                возвращаются за<br>
+                новым проектом
+            </p>
+        </div>
+    </section>
+    <section class="flex w-screen z-1 justify-center h-screen items-center 2xl:mt-[19rem] mt-[80vh] 2xl:pl-0 pl-[5vw] mx-auto">
+        <div class="flex 2xl:flex-row flex-col w-full relative justify-evenly items-center">
+            <span class="2xl:text-[57px] text-[27px] absolute uppercase font-['FoglihtenNo06'] 2xl:font-[1] font-[300] 2xl:leading-[86px] 2xl:-top-[140px] 2xl:left-36 -top-[8.5%] left-[2%]" style="user-select: none;">
+                Студия Serenity это<br class="block 2xl:hidden">творческое <br class="hidden 2xl:block">объединение
+                <span class="text-[#F7B794] 2xl:-tracking-[0.03em] 2xl:pl-8 2xl:text-[80px] text-4xl">профессионалов</span>
+            </span> 
+                <img class="2xl:h-[664px] 2xl:w-[765px] 2xl:ml-24 px-[4vw] pr-[10vw] 2xl:pr-0 2xl:px-0" src="/img/first_block.png" alt="">
+            <div class="flex flex-col 2xl:w-[740px] w-[90vw] pt-[10%] pr-[10%] text-balance 2xl:pr-0 2xl:pt-0 2xl:text-nowrap h-full justify-evenly text-[21px]">
+                <p class="leading-[2.45rem] font-[600] mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br class="hidden 2xl:block">
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim<br class="hidden 2xl:block">
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br class="hidden 2xl:block">
+                    aliquip ex ea commodo consequat.<br> 
+                </p>
+                <p class="leading-[2.4rem] font-[600] mb-[12px]">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br class="hidden 2xl:block">
+                    dolore eu fugiat.Duis aute irure. Duis aute irure dolor in reprehenderit<br class="hidden 2xl:block">
+                    in voluptate velit esse cillum dolore eu fugiat.Duis aute irure. Duis aute<br class="hidden 2xl:block">
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br>
+                    fugiat. Duis aute irure
+                </p>
+                <button class="flex flex-row justify-between items-center text-center w-[250px] h-[40px] bg-transparent mt-[53px]">
+                    Подробнее о студии
+                    <svg class="m-2 -rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-screen z-1 justify-center h-screen items-center  2xl:pl-0 pl-[6vw] 2xl:pt-[22vh] pt-[100vh]">
+        <div class="flex 2xl:flex-row flex-col justify-around items-center mx-auto 2xl:ml-[205px]">
+                <img class="2xl:h-[800px] w-[100vw] 2xl:w-fit  px-[4vw] pr-[10vw] 2xl:pr-0 2xl:px-0" src="/img/second_block.png" alt="">
+            <div class="flex flex-col justify-between items-center w-[100vw] 2xl:w-[810px] 2xl:h-[620px] 2xl:ml-[135px] 2xl:mt-[72px] mt-[5vh]">
+                <button class="flex flex-row p-3 2xl:p-0 2xl:text-3xl text-xl uppercase justify-between items-center text-start w-full 2xl:h-[155px] h-[10vh] bg-transparent border-gray-200/25 border-t-2 ">
+                    <span class="opacity-[0.3] 2xl:text-5xl text-3xl font-[200]">
+                        01//
+                    </span>
+                    <p class="2xl:basis-8/12 basis-6/12 2xl:pl-4">
+                      Проект перепланировки
+                    </p>
+                    <svg class="w-[35px] mr-[10vw] 2xl:mr-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H15M15 1V15M15 1L1.56 15" stroke="#F7B794" stroke-width="2"/>
+                        </svg>                        
+                </button>
+                <button class="flex flex-row p-3 2xl:p-0 2xl:text-3xl text-xl uppercase justify-between items-center text-start w-full 2xl:h-[155px] h-[10vh] bg-transparent border-gray-200/25 border-t-2 ">
+                    <span class="opacity-[0.3] 2xl:text-5xl text-3xl font-[200]">
+                        02//
+                    </span>
+                    <p class="2xl:basis-8/12 basis-6/12 2xl:pl-4">
+                        Авторский надзор
+                    </p>
+                    <svg class="w-[35px] mr-[10vw] 2xl:mr-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H15M15 1V15M15 1L1.56 15" stroke="#F7B794" stroke-width="2"/>
+                        </svg>                        
+                </button>
+                <button class="flex flex-row p-3 2xl:p-0 2xl:text-3xl text-xl uppercase justify-between items-center text-start w-full 2xl:h-[155px] h-[10vh] bg-transparent border-gray-200/25 border-t-2 ">
+                    <span class="opacity-[0.3] 2xl:text-5xl text-3xl font-[200]">
+                        03//
+                    </span>
+                    <p class="2xl:basis-8/12 basis-6/12 2xl:pl-4">
+                        Полный дизайн-проект
+                    </p>
+                    <svg class="w-[35px] mr-[10vw] 2xl:mr-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H15M15 1V15M15 1L1.56 15" stroke="#F7B794" stroke-width="2"/>
+                        </svg>                        
+                </button>
+                <button class="flex flex-row p-3 2xl:p-0 2xl:text-3xl text-xl uppercase justify-between items-center text-start w-full 2xl:h-[155px] h-[10vh] bg-transparent border-gray-200/25 border-t-2 ">
+                    <span class="opacity-[0.3] 2xl:text-5xl text-3xl font-[200]">
+                        04//
+                    </span>
+                    <p class="2xl:basis-8/12 basis-6/12 2xl:pl-4">
+                        Комплектация и управление
+                    </p>
+                    <svg class="w-[35px] mr-[10vw] 2xl:mr-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H15M15 1V15M15 1L1.56 15" stroke="#F7B794" stroke-width="2"/>
+                        </svg>                        
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-screen z-1 justify-center h-screen items-center  2xl:pl-0 pl-[6vw] 2xl:mt-[31vh] mt-[60vh] mx-auto">
+        <div class="flex 2xl:flex-row flex-col relative justify-around items-center mx-auto 2xl:basis-10/12">
+            <div class="flex flex-col w-[100vw] justify-center items-center 2xl:items-start 2xl:absolute 2xl:-bottom-[205px] 2xl:leading-7 2xl:left-[62px] font-[100]">
+                <span class="2xl:text-[42px] text-[25px] mr-[3vw] 2xl:mr-0 uppercase font-[1] leading-[3.4rem] font-['FoglihtenNo06']">
+                    С помощью грамотного<br>
+                    интерьера обеспечим выход<br>
+                    вашего бизнеса на <span class="text-[#F7B794]">новый</span><br>
+                    <span class="text-[#F7B794]">уровень</span>
+                </span>
+                <div class="flex 2xl:flex-row flex-col text-xl font-[600] justify-between 2xl:items-start items-center 2xl:mr-0 mr-[4vw] w-[90vw] 2xl:w-[620px] 2xl:pt-[55px]">
+                    <input placeholder="Номер телефона" class="2xl:w-[270px] 2xl:h-[74px] h-[50px] w-full p-5 bg-white text-black 2xl:my-0 my-[2vh] rounded" action=""></input>
+                    <button class="flex flex-row justify-evenly items-center 2xl:w-[312px] 2xl:h-[74px] h-[50px] w-full rounded bg-[#F7B794] text-black">
+                        Связатся со мной
+                        <svg class="m-2 -rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="black"/>
+                        </svg>
+                    </button> 
+                </div>
+            </div>
+            <img class="2xl:h-[100vh] 2xl:w-[1350px] w-[100vw] 2xl:order-last order-first 2xl:px-0 px-[4vw] 2xl:pr-0 pr-[10vw] 2xl:absolute 2xl:-right-[20%]" style="user-select: none; z-index: -1!important;" src="/img/third_block.png" alt="">
+            <div class="absolute bottom-[300px] 2xl:block hidden left-[444px]">
+                 <svg id="circle" class="w-[245px]"  viewBox="-20 -30 430 430" fill="none" stroke="none" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="none" class="path-circle" id="path-circle" d="M390.5 194.5C390.5 96 308.5 0.500012 195.5 0.5C82.5 0.499988 0.500011 97.5 0.5 194.5C0.49999 283 83.5 388 195.5 388C314.5 388 390.5 284 390.5 194.5Z" stroke="white"/>
+                        <text fill="white" class="text-anim3 uppercase tracking-[0.35em]" font-size="25.5">
+                            <textPath href="#path-circle" startOffset="0">
+                                Serenity collection 2022 - vessels collection 2024 - &nbsp
+                            </textPath>
+                        </text>    
+                </svg>
+            </div>
+                                          
+        </div>
+    </section>
+      <section class="flex w-screen z-1 justify-center h-screen items-center mt-[52vh] mx-auto">
+        <div class="flex flex-col w-screen justify-around text-start items-start mx-auto">
+            <p class="2xl:pl-56 ml-[4vw] 2xl:ml-0 font-['FoglihtenNo06'] 2xl:text-[62px] text-[36px] uppercase 2xl:h-[70px] font-[10]">
+                П<span class="2xl:-tracking-[1.25rem] -ml-[0.25rem] 2xl:pr-4">ос</span>мотрите наши
+            </p>
+            <div class="2xl:pl-[720px] ml-[4vw] 2xl:ml-0 2xl:mb-10">
+                <p class="2xl:text-[86px] text-[38px] font-['FoglihtenNo06'] pb-2 uppercase text-[#F7B794]">
+                п<span class="2xl:-tracking-[2rem] 2xl:pr-8 -ml-1">ос</span>ледние проекты
+                </p>
+                <p class="2xl:text-2xl text-xl font-[600] -tracking-[0.015rem] leading-[40px]">
+                Мы готовы придать вашему интерьеру совершенно новый стиль, который<br>
+                вы полюбите с первого взгляда
+                </p>
+            </div>
+            <div class="2xl:pt-[10vh]"></div>
+            <div class="mySwiperDiag swiper 2xl:w-[95vw] w-[85vw] h-[100vh]">
+                <div class="swiper-wrapper flex flex-row w-screen h-screen">  
+                        <div class="flex swiper-slide flex-col swipe-size">
+                            <img class="slider-img" src="/img/fourth_block1.png" alt="">
+                            <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                                <div class="flex flex-row items-center justify-between pl-[2vw] tracking-[0.055rem] w-full">
+                                        <p class="pt-[2vh] text-3xl text-start">
+                                            ЖК "ЛИСТ ЖИЗНИ"<br>
+                                            <span class="text-xl">
+                                                100 кв.м. <span class="pl-5">Астрахань</span> 
+                                            </span> 
+                                        </p>
+                                        <svg class="mb-10 w-[40px]" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.904297 1H27.9354M27.9354 1V21M27.9354 1L1.98554 21" stroke="#F7B794" stroke-width="2"/>
+                                        </svg>    
+                                </div>                    
+                            </button>
+                        </div>
+                        <div class="flex flex-col swiper-slide swipe-size">
+                            <img class="slider-img" src="/img/fourth_block2.png" alt="">
+                            <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                                <div class="flex flex-row items-center justify-between pl-[2vw] w-full">
+                                        <p class="pt-[2vh] text-3xl text-start">
+                                            ЖК “ВРЕМЕНА ГОДА”<br>
+                                            <span class="text-xl">
+                                                130 кв.м. <span class="pl-7">Астрахань</span>
+                                            </span> 
+                                        </p>
+                                        <svg class="mb-10 w-[40px]" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.904297 1H27.9354M27.9354 1V21M27.9354 1L1.98554 21" stroke="#F7B794" stroke-width="2"/>
+                                        </svg>    
+                                </div>                    
+                            </button>
+                        </div>
+                        <div class="flex flex-col swiper-slide swipe-size">
+                            <img class="slider-img" src="/img/fourth_block3.png" alt="">
+                            <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                                <div class="flex flex-row items-center justify-between pl-[2vw] w-full">
+                                        <p class="pt-[2vh] text-3xl text-start">
+                                            ЖК “ГАГАРИН”<br>
+                                            <span class="text-xl">
+                                                230 кв.м. <span class="pl-5">Астрахань</span>
+                                            </span> 
+                                        </p>
+                                        <svg class="mb-10 w-[40px]" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.904297 1H27.9354M27.9354 1V21M27.9354 1L1.98554 21" stroke="#F7B794" stroke-width="2"/>
+                                        </svg>    
+                                </div>                    
+                            </button>
+                        </div>
+                        <div class="flex flex-col swiper-slide swipe-size">
+                            <img class="slider-img" src="/img/fourth_block3.png" alt="">
+                            <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                                <div class="flex flex-row items-center justify-between pl-[2vw] w-full">
+                                        <p class="pt-[2vh] text-3xl text-start">
+                                            ЖК “ГАГАРИН”<br>
+                                            <span class="text-xl">
+                                                230 кв.м. <span class="pl-5">Астрахань</span>
+                                            </span> 
+                                        </p>
+                                        <svg class="mb-10 w-[40px]" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.904297 1H27.9354M27.9354 1V21M27.9354 1L1.98554 21" stroke="#F7B794" stroke-width="2"/>
+                                        </svg>    
+                                </div>                    
+                            </button>
+                        </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col w-screen z-1 font-['FoglihtenNo06'] justify-center h-screen items-center 2xl:mt-[65vh] mt-[20vh] mx-auto sec-exp">
+        <span class="flex flex-col w-screen 2xl:text-[64px] text-[36px] ml-[4vw] 2xl:ml-0 uppercase 2xl:leading-[5.3rem] leading-[3.3rem] text-start 2xl:pl-52 font-[100]">
+            Нашему опыту и профессионализму
+            <span class="text-[#F7B794] text-start">
+                доверяют:  
+            </span>
+        </span>
+        <div class="flex 2xl:flex-row flex-col w-screen h-fit items-center 2xl:divide-x 2xl:divide-y-0 divide-y divide-slate-300/30 justify-center pt-[7%]">
+            <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                    <img src="/icons/1-5-icon.png" alt="">
+                </div>
+                <div class="w-full h-full flex items-center justify-center">
+                     <img src="/icons/7-11-icon.png" alt="">
+                </div>
+            </div>
+            <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                     <img src="/icons/2-6-icon.png" alt="">
+                </div>
+               <div class="w-full h-full flex items-center justify-center">
+                   <img src="/icons/8-12-icon.png" alt="">
+                </div>
+            </div>
+             <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                     <img src="/icons/3-icon.png" alt="">
+                </div>
+                <div class="w-full h-full flex items-center justify-center">
+                    <img src="/icons/9-icon.png" alt="">
+                </div>
+            </div>
+             <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x  divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                    <img src="/icons/4-icon.png" alt="">
+                </div>
+                <div class="w-full h-full flex items-center justify-center">
+                    <img src="/icons/10-icon.png" alt="">
+                </div>   
+            </div>
+             <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x  divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                     <img src="/icons/1-5-icon.png" alt="">
+                </div>
+                <div class="w-full h-full flex items-center justify-center">
+                    <img src="/icons/7-11-icon.png" alt="">
+                </div>
+            </div>
+             <div class="flex 2xl:flex-col flex-row 2xl:w-[16vw] w-[85vw] h-[16vh] 2xl:h-[55vh] 2xl:divide-y 2xl:divide-x-0 divide-x  divide-slate-300/30 items-center justify-between">
+                <div class="w-full h-full flex items-center justify-center">
+                      <img src="/icons/2-6-icon.png" alt="">
+                </div>
+                <div class="w-full h-full flex items-center justify-center">
+                     <img src="/icons/8-12-icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" flex w-screen z-1 justify-center h-screen items-center mt-[48vh] mx-auto">
+        <div class="flex flex-col w-screen h-screen justify-evenly items-start mx-auto">
+            <div class="2xl:pl-56 ml-[4vw] 2xl:ml-0 2xl:text-[64px] text-[36px] uppercase 2xl:mb-20 mb-0">
+                <p class="font-['FoglihtenNo06']">Блог
+                    <span class="2xl:pb-5 pb-0 text-[#F7B794]">
+                    нов<span class="2xl:-tracking-[2rem] 2xl:pr-8 pr-0 2xl:-ml-1 -ml-0">ос</span>тей
+                    </span>
+                </p>
+                <p class="2xl:text-[27px] text-xl normal-case opacity-60 font-[400] pt-3 pb-2">
+                    Всё самое интересное из жизни компании и сферы дизайна
+                </p>
+                <button class="flex flex-row text-[22px] text-white justify-between items-center w-[160px] h-[40px] bg-transparent text-black my-7 mt-0 2xl:mt-[5vh]">
+                    Все новости
+                    <svg class="-rotate-[90deg]" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+                        </svg>
+                </button>
+            </div>
+            <div class="2xl:pt-[10vh] pt-[6vh]"></div>
+            <div class="mySwiperDiag mySwiperDiag2 swiper 2xl:w-[95vw] w-[85vw] h-[100vh]">
+                <div class="swiper-wrapper flex flex-row w-screen h-screen">
+                    <div class="swiper-slide flex flex-col swipe-size">
+                        <img class="slider-img" src="/img/Sixth_block1.png" alt="">
+                        <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                            <div class="flex flex-col items-start justify-between w-full pl-[2vw]">
+                                    <p class="pt-[2vh] pb-5 text-xl opacity-50">
+                                        #Бизнес
+                                    </p>
+                                    <p class="2xl:text-[34px] text-[26px] leading-[42px] text-start">
+                                        Ежегодный съезд<br>
+                                        дизайнеров интерьера
+                                    </p>
+                                    <p class="2xl:pt-9 pt-[2vh] text-xl opacity-50">
+                                        20.02.2023
+                                    </p>
+                            </div>                    
+                        </button>
+                    </div>  
+                    <div class="swiper-slide flex flex-col swipe-size">
+                        <img class="slider-img" src="/img/Sixth_block2.png" alt="">
+                        <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                            <div class="flex flex-col items-start justify-between w-full pl-[2vw]">
+                                    <p class="pt-[2vh] pb-5 text-xl opacity-50">
+                                        #Бизнес
+                                    </p>
+                                    <p class="2xl:text-[34px] text-[26px] leading-[42px] text-start">
+                                        Ежегодный съезд<br>
+                                        дизайнеров интерьера
+                                    </p>
+                                    <p class="2xl:pt-9 pt-[2vh] text-xl opacity-50">
+                                        20.02.2023
+                                    </p>
+                            </div>                    
+                        </button>
+                    </div>
+                    <div class="swiper-slide flex flex-col swipe-size">
+                        <img class="slider-img" src="/img/Sixth_block3.png" alt="">
+                        <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                            <div class="flex flex-col items-start justify-between w-full pl-[2vw]">
+                                    <p class="pt-[2vh] pb-5 text-xl opacity-50">
+                                        #Бизнес
+                                    </p>
+                                    <p class="2xl:text-[34px] text-[26px] leading-[42px] text-start">
+                                        Ежегодный съезд<br>
+                                        дизайнеров интерьера
+                                    </p>
+                                    <p class="2xl:pt-9 pt-[2vh] text-xl opacity-50">
+                                        20.02.2023
+                                    </p>
+                            </div>                    
+                        </button>
+                    </div>
+                    <div class="swiper-slide flex flex-col swipe-size">
+                        <img class="slider-img" src="/img/Sixth_block3.png" alt="">
+                        <button class="bg-transparent flex flex-col justify-between items-start slider-img">
+                            <div class="flex flex-col items-start justify-between w-full pl-[2vw]">
+                                    <p class="pt-[2vh] pb-5 text-xl opacity-50">
+                                        #Бизнес
+                                    </p>
+                                    <p class="2xl:text-[34px] text-[26px] leading-[42px] text-start">
+                                        Ежегодный съезд<br>
+                                        дизайнеров интерьера
+                                    </p>
+                                    <p class="2xl:pt-9 pt-[2vh] text-xl opacity-50">
+                                        20.02.2023
+                                    </p>
+                            </div>                    
+                        </button>
+                    </div>      
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="flex w-screen justify-center h-screen items-center 2xl:mt-[55vh] mt-[20vh]">
+        <div class="flex flex-col w-screen h-screen items-start 2xl:mx-20 mx-auto">
+            <div class="2xl:pl-[8%] pl-[5%] 2xl:text-[63px] text-[36px] uppercase">
+                <p class="font-['FoglihtenNo06']">Что говорят наши клиенты о 
+                    <span class="pb-5 text-[#F7B794]">
+                        нас
+                    </span>
+                </p>
+                <p class="2xl:text-[27px] text-xl normal-case text-balance 2xl:text-nowrap opacity-60 leading-[4vh] font-[400] pb-5">
+                    Мы ценим отзывы наших клиентов, ведь они являются лучшим<br class="hidden 2xl:block">
+                    свидетельством нашего мастерства и профессионализма.
+                </p>
+            </div>
+            <div class="mySwiper swiper 2xl:w-[100vw] w-[90vw] h-[60vh]">
+                <div class="swiper-wrapper flex flex-row w-[100%] items-center">
+                        <div class="flex swiper-slide flex-col h-[50vh] w-[40vw] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Климова Ольга</footer>
+                            </blockquote>
+                        </div>
+                        <div class="flex swiper-slide flex-col h-[50vh] w-[40vw] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с
+                                    моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Климов Дмитрий</footer>
+                            </blockquote>
+                        </div>
+                        <div class="flex swiper-slide flex-col h-[50vh] w-[40vw] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с
+                                    моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Егоров Михаил</footer>
+                            </blockquote>
+                        </div>
+                        <div class="flex swiper-slide flex-col h-[50vh] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с
+                                    моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Егоров Михаил</footer>
+                            </blockquote>
+                        </div>
+                        <div class="flex swiper-slide  flex-col  h-[50vh] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с
+                                    моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Егоров Михаил</footer>
+                            </blockquote>
+                        </div>
+                        <div class="flex swiper-slide  flex-col  h-[50vh] bg-white/5">
+                            <blockquote class="2xl:pl-[3vw] p-[10%] pt-[4vh]">
+                                <p class="text-[96px] uppercase h-[90px]">“</p>
+                                <p class="pt-5 pb-2 text-[21px] font-[600]">Сергей и его команда всегда были готовы помочь мне в любое время с
+                                    моим сайтом.</p>
+                                <footer class="text-[#F7B794] text-lg"><br>Егоров Михаил</footer>
+                            </blockquote>
+                        </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <footer class="flex w-screen justify-center h-[50vh] 2xl:mt-[15vh] mt-[30vh] items-center mx-auto">
+        <div class="flex flex-col w-screen items-center leading-[2rem]">
+            <span class="mx-5 2xl:text-[86px] text-5xl text-center relative line1 italiana py-5">
+            SERENITY
+            </span>
+            <p class="text-[22px]  text-center">
+                Превращаем пространство в искусство
+            </p>
+            <div class="flex flex-row justify-evenly items-center w-[100px] 2xl:pt-[10vh] pt-[5vh]">
+                <svg viewBox="0 0 35 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.8" d="M3.60924 10.4295L5.47485 16.797L7.90363 13.4809L12.0679 18L15 0L0 8.53063L3.60924 10.4295ZM10.7137 5.16438L6.12247 10.882L5.55061 13.8247L4.49421 10.2181L10.7137 5.16438Z" fill="#FBF9FD"/>
+                </svg>
+                <svg viewBox="0 0 35 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.8">
+                <path d="M18.5723 6.45817C18.8555 5.96047 19.0804 5.56112 19.2465 5.25984C20.4426 3.09845 20.9611 1.71774 20.8022 1.11578L20.7399 0.974796C20.6984 0.890116 20.591 0.812353 20.4183 0.741965C20.2454 0.671627 20.0242 0.660388 19.7547 0.706822L16.7677 0.735456C16.6986 0.726098 16.6294 0.728284 16.5602 0.741965C16.4911 0.756256 16.4462 0.770598 16.4253 0.784279C16.4045 0.798621 16.3873 0.810116 16.3736 0.819474L16.3322 0.861788C16.2976 0.889811 16.2596 0.939297 16.2181 1.00999C16.1766 1.08063 16.1418 1.16251 16.1144 1.25681C15.7894 2.3938 15.4196 3.45115 15.0047 4.4285C14.7488 5.01119 14.5136 5.51667 14.2995 5.94368C14.0851 6.37166 13.9054 6.68637 13.7601 6.88803C13.615 7.09004 13.4835 7.25248 13.3661 7.37423C13.2484 7.49685 13.1586 7.54822 13.0965 7.52956C13.0342 7.51089 12.9754 7.49223 12.9202 7.4729C12.8233 7.38858 12.7454 7.27369 12.6868 7.12772C12.628 6.98242 12.5884 6.79902 12.5675 6.57804C12.5469 6.35737 12.5345 6.1669 12.5313 6.0069C12.5276 5.84725 12.5295 5.6219 12.5366 5.33023C12.5435 5.03886 12.5469 4.84188 12.5469 4.73823C12.5469 4.38151 12.5522 3.99371 12.5625 3.5754C12.5728 3.15739 12.5815 2.8259 12.5884 2.58152C12.5953 2.3375 12.5987 2.07883 12.5987 1.80618C12.5987 1.53414 12.5865 1.31997 12.5622 1.1647C12.5379 1.00999 12.5015 0.859652 12.4534 0.713688C12.4049 0.568334 12.3341 0.455326 12.2407 0.375681C12.1473 0.295681 12.0316 0.232514 11.8933 0.185165C11.5266 0.0721571 11.0599 0.0117877 10.4931 0.00187024C9.20701 -0.0161846 8.38074 0.0964675 8.01432 0.340487C7.86913 0.444137 7.73768 0.584812 7.62022 0.763478C7.49565 0.970473 7.47847 1.08343 7.56846 1.10148C7.98341 1.18616 8.27705 1.38848 8.44993 1.70782L8.51223 1.87682C8.56054 1.99944 8.60889 2.21549 8.65742 2.52548C8.70577 2.83551 8.7369 3.1785 8.75086 3.5545C8.78543 4.24048 8.78543 4.82754 8.75086 5.31655C8.71628 5.8055 8.68354 6.18587 8.65241 6.45791C8.62124 6.73057 8.57454 6.95124 8.51246 7.12025C8.45015 7.28986 8.40873 7.3932 8.38789 7.43084C8.36704 7.46817 8.34987 7.49182 8.33613 7.50123C8.24614 7.54792 8.15293 7.57157 8.05608 7.57157C7.9592 7.57157 7.8417 7.50555 7.7034 7.37388C7.56506 7.24287 7.42148 7.06171 7.27307 6.83137C7.12422 6.60139 6.9568 6.27925 6.76992 5.86556C6.58327 5.45254 6.38951 4.96354 6.18913 4.39987L6.02332 3.99086C5.91959 3.72818 5.77781 3.34501 5.59805 2.84232C5.41828 2.33964 5.2591 1.85348 5.12102 1.38319C5.0656 1.18616 4.98268 1.03583 4.8721 0.932176L4.82035 0.889862C4.78577 0.852481 4.73035 0.812354 4.65432 0.770294C4.57805 0.727979 4.49884 0.697464 4.41569 0.678493L1.57391 0.706517C1.28353 0.706517 1.08659 0.79618 0.982863 0.974796L0.941402 1.05917C0.920447 1.10647 0.910156 1.18179 0.910156 1.28483C0.910156 1.38848 0.930999 1.51517 0.97246 1.6652C1.38741 2.99053 1.83858 4.26855 2.3259 5.49923C2.81348 6.73057 3.23693 7.72221 3.59646 8.4739C3.95599 9.2262 4.3224 9.93522 4.69593 10.6025C5.06945 11.2699 5.31654 11.6972 5.43744 11.8849C5.55834 12.0732 5.65339 12.2142 5.72258 12.3079L5.98182 12.6465C6.14763 12.8719 6.39153 13.142 6.71308 13.457C7.0346 13.772 7.3905 14.082 7.78142 14.3871C8.1719 14.6927 8.6267 14.9414 9.14515 15.1344C9.66364 15.3274 10.1684 15.4048 10.6593 15.3669H11.8521C12.0941 15.3388 12.2773 15.2359 12.4017 15.0568L12.4431 14.9865C12.4706 14.9305 12.4967 14.8433 12.521 14.7259C12.545 14.6086 12.5574 14.4791 12.5574 14.3385C12.5503 13.9345 12.573 13.5697 12.6248 13.246C12.6765 12.9216 12.7353 12.6776 12.8011 12.5127C12.8668 12.3486 12.941 12.2098 13.0241 12.0968C13.1071 11.9838 13.1657 11.9163 13.2005 11.8926C13.235 11.8696 13.2628 11.8531 13.2834 11.8431C13.4492 11.7681 13.6445 11.8409 13.8694 12.0616C14.0941 12.283 14.305 12.5549 14.5022 12.8793C14.6991 13.2036 14.9359 13.5674 15.2126 13.9718C15.489 14.3757 15.731 14.6764 15.9385 14.8737L16.146 15.0434C16.2843 15.1558 16.4638 15.2591 16.6853 15.3534C16.9065 15.4471 17.1003 15.4708 17.2661 15.4238L19.9212 15.3671C20.1839 15.3671 20.3879 15.3086 20.5331 15.1909C20.6783 15.0742 20.7647 14.9441 20.7924 14.8035C20.8199 14.6625 20.8217 14.5034 20.7977 14.3244C20.7734 14.1461 20.7491 14.0216 20.7251 13.9512C20.7009 13.8809 20.6783 13.8217 20.6575 13.775C20.3117 12.9294 19.6515 11.8907 18.6766 10.6597L18.6557 10.6317L18.6454 10.6174L18.6351 10.6037H18.6247C18.1821 10.0303 17.9022 9.64497 17.7847 9.44733C17.5704 9.072 17.5218 8.69132 17.6395 8.30601C17.722 8.01383 18.033 7.39819 18.5723 6.45817Z" fill="#FBF9FD"/>
+                </g>
+                </svg>         
+            </div> 
+            <div class="flex 2xl:flex-row flex-col w-[92%] items-center text-lg 2xl:pt-[10vh] pt-[5vh] justify-between">
+                <span class="2xl:py-0 py-[1vh]">
+                    © Serenity Interior. Все права защищены️
+                </span>
+                <span class="2xl:pr-20 text-lg underline 2xl:py-0 py-[1vh]">
+                    Политика конфиденциальности
+                </span>
+                <span class="text-lg 2xl:mr-10 2xl:py-0 py-[1vh]">
+                    Разработано в  <a class="underline" href="">Hello</a>
+                </span>
+            </div> 
+        </div>
+    </footer>
+    <div id="menu">
+        <header class="main-nav">
+            <ul>
+                <li>
+                    <a href="" class="mx-5 text-5xl text-center italiana">
+                        SERENITY 
+                    </a>
+                </li>
+            </ul>
+        </header>
+    </div>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="/js/slider.js"></script>
+     <script src="https://unpkg.com/@studio-freight/lenis@1.0.35/dist/lenis.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+     <script src="/js/burger/burger.js"></script>
+     <script src="/js/lenis/lenis.js"></script>
+     <script src="/js/dropDown.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+    const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 40,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        breakpoints: {
+        700: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        loop: true,
+        },
+        800: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        loop: true,
+        },
+        900: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        loop: true,
+        },
+        1000: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        loop: true,
+        },
+        1100: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        loop: true,
+        },
+        1200: {
+        slidesPerView: 3,
+        spaceBetween: 100,
+        loop: true,
+        },
+        1440: {
+        slidesPerView: 4,
+        spaceBetween: 50,
+        loop: true,
+        }  
+        }});
+
+    swiper.on('slideChange', function (e) {
+        Array.from(document.querySelectorAll('.mySwiper .swiper-slide')).forEach(element => {
+            element.classList.remove('swiper-fade');
+        });
+        if(window.innerWidth >= 1440){
+             document.querySelectorAll('.mySwiper .swiper-slide')[swiper.activeIndex+3].classList.add('swiper-fade');
+        }
+        else if(window.innerWidth >= 1200){
+             document.querySelectorAll('.mySwiper .swiper-slide')[swiper.activeIndex+2].classList.add('swiper-fade');
+        }
+        else if(window.innerWidth >= 700){
+             document.querySelectorAll('.mySwiper .swiper-slide')[swiper.activeIndex+1].classList.add('swiper-fade');
+        }
+       
+  }); 
+
+  const swiperDiag = new Swiper(".mySwiperDiag", {
+        slidesPerView: 1,
+        spaceBetween: 40,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        breakpoints: {
+        700: {
+        slidesPerView: 2,
+        spaceBetween: 70,
+        loop: true,
+        },
+        800: {
+        slidesPerView: 2,
+        spaceBetween: 100,
+        loop: true,
+        },
+        900: {
+        slidesPerView: 2,
+        spaceBetween: 120,
+        loop: true,
+        },
+        1000: {
+        slidesPerView: 2,
+        spaceBetween: 130,
+        loop: true,
+        },
+        1100: {
+        slidesPerView: 2,
+        spaceBetween: 150,
+        loop: true,
+        },
+        1200: {
+        slidesPerView: 2,
+        spaceBetween: 160,
+        loop: true,
+        },
+        1440: {
+        slidesPerView: 3,
+        spaceBetween: 150,
+        loop: true,
+        }  
+        }});
+     </script>
+     <script>
+        console.clear(); // Start with a clean console on refesh
+        gsap.defaults({ease: "none"});
+        const tl = gsap.timeline( {repeat:-1, repeatDelay: 1} )
+        .to('.mouse-anim',{
+            opacity: 0.1,
+            y:5,
+        });
+ 
+        const scrollButton = document.querySelector('#scroll-button');
+        const sectionCases = document.querySelector('#section_case');
+        scrollButton.addEventListener('click', () => {
+        console.warn(sectionCases);
+        gsap.to(window, {
+            duration: 1.5,
+            scrollTo: sectionCases,
+            ease: "power2"
+        });
+        });
+
+        const main3 = gsap.timeline({
+            scrollTrigger:{
+                trigger: "#circle",
+                scrub: 1,
+                start: "top 100%",
+                end: "+=1300"
+            }
+        })
+        main3.set(".text-anim3", { transformOrigin: "50% 50%" });
+        main3.to(".text-anim3",{
+            duration: 10,
+            ease: "none",
+            rotation: "+=360",   
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/bitrix/*
+!/bitrix/templates
+!/bitrix/modules
+!/bitrix/wizards
+
+/bitrix/templates/*
+!/bitrix/templates/hellodigital.turbosite
+!/bitrix/templates/hellodigital.turbosite.en
+
+/bitrix/modules/*
+!/bitrix/modules/hellodigital.turbosite
+
+/bitrix/wizards/*
+!/bitrix/wizards/hellodigital
+
+*.log
