@@ -122,15 +122,28 @@
             }
             
             .covered_slider {
-                font-size: 350px;
-                overflow: hidden;
+                font-size: 280px;
                 font-weight: 800;
                 padding: 150px 0 0 0;
                 display: block;
-                opacity: 0.2;
-                background: url(/images/coffeebg.jpg);
+                opacity: 0.4;
+                /* background: url(/images/coffeebg.jpg);
+                background-clip:text;
+                color:transparent;
+                background-repeat:repeat-x;
+                background-position:0 0;
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                -webkit-text-fill-color: transparent; */
+            }
+
+            .svgClipped {
+                width: 1920px;
+                height: 400px;
+                -webkit-clip-path: url(#svgPath);
+                clip-path: url(#svgPath);
+                overflow: hidden;
+                object-fit: cover;
+                margin:0 auto;
             }
             
             video {
@@ -1583,4 +1596,25 @@ Animation keyframes
             
             .slick-arrow.slick-hidden {
                 display: none;
+            }
+
+            .batchbox{
+                opacity: 0;
+            }
+
+            .width-text{
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+            }
+
+            .omnitrade-text{
+                overflow: visible;
+                right: 4000px;
+                position: absolute;
+            }
+            
+            .text-anim{
+                opacity: 0;
             }
