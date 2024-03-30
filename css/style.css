@@ -660,7 +660,7 @@
                 left: 20px;
             }
             
-            .products_list li span {
+            /* .products_list li span {
                 position: absolute;
                 bottom: 20px;
                 left: 20px;
@@ -729,7 +729,96 @@
                 background: url(/images/bg3.jpg) no-repeat;
                 background-size: cover;
                 background-position: center;
+            } */
+
+            /*мой вариант*/
+            .efbox{
+                flex-direction: row;
+                gap: 20px;
             }
+
+            .efbox li span {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                width: 70%;
+                color: #FFF;
+            }
+            .efbox li span {
+                width: 69%;
+                color: #FFF;
+                font-size: 28px;
+                font-weight: 500;
+            }
+
+            .efbox2 {
+                width: calc(33% - 10px);
+                list-style: none;
+                position: relative;
+                min-height: 700px;
+                border-radius: 7px;
+                min-width: 320px;
+                overflow: hidden;
+                border-radius: 12px;
+                background-color: grey;
+            }
+
+            .efbox2{
+                width: calc(33% - 10px);
+                background: #2e5d5a;
+                overflow: hidden;
+                color:white;
+                border-radius: 12px;
+            }
+
+            .efbox2 img{
+                width: -webkit-calc(100% + 60px);
+	            width: calc(100% + 60px);
+                height: 100%;
+                opacity: 1;
+                object-fit: cover;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(0px,0,0) scale(1.12);
+                transform: translate3d(0px,0,0) scale(1.12);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+            
+            .efbox2:hover img {
+                opacity: 0.5;
+                -webkit-transform: translate3d(0,0,0) scale(1);
+                transform: translate3d(0,0,0) scale(1);
+                transform-origin: center;
+            }
+            
+            .effect-milo h2 {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                color:white;
+                padding: 1em 1.2em;
+            }
+            
+            .effect-milo p {
+                padding: 0 10px 0 0;
+                width: 50%;
+                color:white;
+                border-right: 1px solid #fff;
+                text-align: right;
+                opacity: 0;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(-40px,0,0);
+                transform: translate3d(-40px,0,0);
+            }
+            
+            .effect-milo:hover p {
+                opacity: 1;
+                -webkit-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+            }
+            /*мой вариант*/
             
             .control_list li {
                 width: calc(33% - 10px);
@@ -792,6 +881,22 @@
                 aspect-ratio: 4/4;
                 position: absolute;
                 left: 0;
+            }
+
+            .accordion-menu {
+                background: #fff;
+                cursor: pointer;
+                user-select: none;
+            }
+              
+            .accordion-content {
+                height: 0;
+                overflow: hidden;
+            }
+            
+            .accordion-content.expanded {
+                height: 0;
+                overflow: hidden;
             }
             
             .tel_left {
