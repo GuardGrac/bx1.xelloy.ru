@@ -1,32 +1,32 @@
 console.clear(); // Start with a clean console on refesh
 gsap.defaults({ease: "power2"}); 
-gsap.set(".batchbox", {y: 200});
+gsap.set(".batchbox", {y: '30%'});
    ScrollTrigger.batch(".batch", {
-    interval: 0.1,
-    onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeave: batch => gsap.set(batch, { opacity: 0, y: -600, overwrite: true }),
-    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeaveBack: batch => gsap.set(batch, { opacity: 0, y: 600, overwrite: true }),
+    interval: 0.3,
+    onEnter: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true }),
+    onLeave: batch => gsap.set(batch, { opacity: 0, y: '-60%', overwrite: true }),
+    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true }),
+    onLeaveBack: batch => gsap.set(batch, { opacity: 0, y: '60%', overwrite: true }),
     start: "top 100%",
     end: "bottom 0%"
 });
 
 ScrollTrigger.batch(".batchbox", {
-    interval: 0.1,
-    onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeave: batch => gsap.to(batch, { opacity: 0, y: -500, overwrite: true }),
-    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeaveBack: batch => gsap.to(batch, { opacity: 0, y: 500, overwrite: true }),
+    interval: 0.3,
+    onEnter: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true}),
+    onLeave: batch => gsap.to(batch, { opacity: 0, y: '-60%', overwrite: true}),
+    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true}),
+    onLeaveBack: batch => gsap.to(batch, { opacity: 0, y: '60%', overwrite: true}),
     start: "top 100%",
     end: "bottom 0%"
 });
 
 ScrollTrigger.batch(".footerbox", {
-    interval: 0.1,
-    onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeave: batch => gsap.to(batch, { opacity: 0, y: -500, overwrite: true }),
-    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
-    onLeaveBack: batch => gsap.to(batch, { opacity: 0, y: 500, overwrite: true }),
+    interval: 0.3,
+    onEnter: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true}),
+    onLeave: batch => gsap.to(batch, { opacity: 0, y: '-60%', overwrite: true }),
+    onEnterBack: batch => gsap.to(batch, { opacity: 1, y: '0%', stagger: 0.35, overwrite: true }),
+    onLeaveBack: batch => gsap.to(batch, { opacity: 0, y: '60%', overwrite: true }),
     start: "top 100%",
     end: "bottom 0%"
 });
