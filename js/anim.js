@@ -3,7 +3,6 @@ gsap.defaults({ease: "power2"});
 gsap.set(".batchbox", {y: 200});
    ScrollTrigger.batch(".batch", {
     interval: 0.1,
-    markers: true,
     onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
     onLeave: batch => gsap.set(batch, { opacity: 0, y: -600, overwrite: true }),
     onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
@@ -14,7 +13,6 @@ gsap.set(".batchbox", {y: 200});
 
 ScrollTrigger.batch(".batchbox", {
     interval: 0.1,
-    markers: true,
     onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
     onLeave: batch => gsap.to(batch, { opacity: 0, y: -500, overwrite: true }),
     onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
@@ -25,7 +23,6 @@ ScrollTrigger.batch(".batchbox", {
 
 ScrollTrigger.batch(".footerbox", {
     interval: 0.1,
-    markers: true,
     onEnter: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
     onLeave: batch => gsap.to(batch, { opacity: 0, y: -500, overwrite: true }),
     onEnterBack: batch => gsap.to(batch, { opacity: 1, y: 0, stagger: 0.15, overwrite: true }),
@@ -47,7 +44,6 @@ const main2 = gsap.timeline({
     scrollTrigger:{
         trigger: "#svg",
         scrub: 1,
-        markers: true,
         start: "top 100%",
         end: "+=2000"
     }
